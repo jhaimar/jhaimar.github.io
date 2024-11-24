@@ -8,7 +8,7 @@ header {
     background-color: rgb(137, 15, 186);
 }
 
-ul {
+.ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -16,7 +16,7 @@ ul {
     margin: 0;
 }
 
-li {
+.li {
     list-style: none;
 }
 
@@ -107,6 +107,11 @@ h1 {
     margin: 20px;
 }
 
+.li2 {
+    margin: 10px;
+    font-size: 18px;
+}
+
 .h2_info{
     background-color: rgb(137, 15, 186);
     color: #fff;
@@ -151,10 +156,12 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
+    color: #fff;
 }
 
 .h2_footer {
     color: #fff;
+    font-family: sans-serif;
 }
 
 @media screen and (max-width: 911px) {
