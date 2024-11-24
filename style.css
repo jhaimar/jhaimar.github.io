@@ -1,0 +1,188 @@
+body {
+    font-family: monserrate;
+    margin: 0; 
+    
+}
+
+header {
+    background-color: rgb(137, 15, 186);
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.4s;
+    font-family: sans-serif;
+}
+
+a:hover {
+    background-color: rgb(176, 34, 232);
+}
+
+a:active {
+    background-color: rgba(176, 34, 232, 0.762);
+}
+
+.overlay {
+    top: 0;
+    background-color: rgba(137, 15, 186, 0.236);
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 70vh;
+}
+
+.per {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    
+}
+
+span {
+    color:  rgb(137, 15, 186);
+}
+
+h1 {
+    font-size: 50px;
+    
+}
+
+.lema {
+    font-size: 20px;
+}
+
+
+
+.fotojhai {
+  
+    background-image: url(/imagenes/jha.jpg);
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #000;
+    
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    
+}
+
+.info2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.container_info {
+    max-width: 500px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.h2_info{
+    background-color: rgb(137, 15, 186);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.p_info {
+    line-height: 21px;
+}
+
+.foto_info {
+    background-image: url(/imagenes/habi.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 76.5vh;
+    height: 50vh;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px #000;
+}
+
+.foto_info2 {
+    background-image: url(/imagenes/expe.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 76.5vh;
+    height: 50vh;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px #000;
+}
+
+.foto_info3 {
+    display: none;
+}
+
+footer {
+    background-color: rgb(137, 15, 186);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.h2_footer {
+    color: #fff;
+}
+
+@media screen and (max-width: 911px) {
+    .foto_info2 {
+        display: none;
+    }
+
+    .foto_info3 {
+        display: block;
+        background-image: url(/imagenes/expe.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 76.5vh;
+        height: 50vh;
+        border-radius: 20px;
+        margin: 10px;
+        box-shadow: 0 0 10px #000;
+    }
+
+    
+}
+
+@media screen and (max-width: 659px) {
+    .overlay {
+        height: 90vh;
+    }
+
+    .fotojhai {
+        margin-top: 20px;
+    }
+}
