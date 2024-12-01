@@ -146,7 +146,7 @@ main {
 }
 
 .p__pestañas {
-    text-align: justify;
+    text-align: center;
     line-height: 25px;
     padding: 10px;
 }
@@ -188,6 +188,10 @@ footer {
     }
 
     .lema {
+        text-align: center;
+    }
+
+    footer {
         text-align: center;
     }
 
